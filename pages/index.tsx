@@ -20,19 +20,19 @@ const Home = (props: Props) => {
       </nav>
       <main>
         <section>
+        <Profile />
+        </section>
+        <section>
         <Education />
         </section>
         <section>
         <Experience />
         </section>
         <section>
-        <Extras />
-        </section>
-        <section>
-        <Profile />
-        </section>
-        <section>
         <Projects />
+        </section>
+        <section>
+        <Extras />
         </section>
         <section>
         <Resume />

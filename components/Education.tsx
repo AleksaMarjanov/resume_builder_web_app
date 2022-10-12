@@ -5,8 +5,9 @@ interface Props {}
 const Education = (props: Props) => {
   return (
     <div className="flex flex-col items-center justify-center p-12">
+      
         <h1 className="text-3xl mb-5 tracking-[5px]">Education Details</h1>
-      <div className="mx-auto w-full max-w-[750px]">
+      <div className="mx-auto w-full max-w-[550px]">
         <form >
           <div className="-mx-3 flex flex-wrap">
             <div className="w-full px-3 sm:w-1/2">
