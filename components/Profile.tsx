@@ -6,8 +6,8 @@ interface Props {
 
 const Profile = (props: Props) => {
     return (
-        <div>
-            Profile
+        <div className='flex flex-col items-center justify-center p-12'>
+            <h1>Personal Details</h1>
         </div>
     )
 }

@@ -45,8 +45,9 @@ const Education = (props: Props) => {
           </div>
 
           <div className="-mx-3 flex flex-wrap">
-            <div className="w-full px-3 sm:w-1/2">
+            <div className="w-full px-3 sm:w-1/2 flex flex-col">
               <div className="mb-5">
+                <label htmlFor="date">From</label>
               <input
                   type="date"
                   name="date"
@@ -56,8 +57,9 @@ const Education = (props: Props) => {
                 />
               </div>
             </div>
-            <div className="w-full px-3 sm:w-1/2">
+            <div className="w-full px-3 sm:w-1/2 flex flex-col">
               <div className="mb-5">
+                <label htmlFor="date">Date Graduated/Anticipated</label>
                 <input
                   type="date"
                   name="date"
